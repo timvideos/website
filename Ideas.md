@@ -1,8 +1,8 @@
 ---
-{'layout': 'default',
- 'title': 'Ideas!',
- 'tagline': 'Projects you could possibly work on.'}
-
+layout: default
+title: Ideas!
+tagline: Projects you could possibly work on.
+tags: ideas
 ---
 
 # Overview
@@ -152,65 +152,65 @@ If you can show that you are committed to developing hardware (such as being acc
 {% raw %}
 <!-- Template for the idea list. Uses http://mustache.github.io/mustache.5.html -- You can't use markdown in this template. -->
 <script type="text/html" id="ideas-template">
-    {{#projects}}
-    <div class="project">
-        <h1>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h1>
-        <div class="labels">
-            <div class="label" style="background-color: #{{label.color}};">
-                <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
-                    {{label.name}}
-                </a>
-            </div>
-            <div style="clear: both; height: 1px;">&nbsp;</div>
-        </div>
-        <div class="description">{{&fixed_html}}</div>
-        {{#ideas}}
-        <div id="{{number}}" class="idea {{hot}}">
-            <h2>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h2>
-            <div class="labels">
-                {{#labels}}
-                    <div class="label" style="background-color: #{{color}};">
-                        <a href="https://github.com/timvideos/getting-started/issues?labels={{name}}">
-                            {{name}}
-                        </a>
-                    </div>
-                {{/labels}}
-                <div style="clear: both; height: 1px;">&nbsp;</div>
-            </div>
-            <div class="details">
-                <div class="description">
-                    {{&fixed_html}}
-                </div>
-                <div class="extra_info">{{&reference.extra}}</div>
-            </div>
-        </div>
-        {{/ideas}}
+  {{#projects}}
+  <div class="project">
+    <h1>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h1>
+    <div class="labels">
+      <div class="label" style="background-color: #{{label.color}};">
+        <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
+          {{label.name}}
+        </a>
+      </div>
+      <div style="clear: both; height: 1px;">&nbsp;</div>
     </div>
-    <hr class="project-line">
-    <hr class="project-line">
-    <br>
-    {{/projects}}
+    <div class="description">{{&fixed_html}}</div>
+    {{#ideas}}
+    <div id="{{number}}" class="idea {{hot}}">
+      <h2>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h2>
+      <div class="labels">
+        {{#labels}}
+          <div class="label" style="background-color: #{{color}};">
+            <a href="https://github.com/timvideos/getting-started/issues?labels={{name}}">
+              {{name}}
+            </a>
+          </div>
+        {{/labels}}
+        <div style="clear: both; height: 1px;">&nbsp;</div>
+      </div>
+      <div class="details">
+        <div class="description">
+          {{&fixed_html}}
+        </div>
+        <div class="extra_info">{{&reference.extra}}</div>
+      </div>
+    </div>
+    {{/ideas}}
+  </div>
+  <hr class="project-line">
+  <hr class="project-line">
+  <br>
+  {{/projects}}
 </script>
 <script type="text/html" id="ideas-extra-template">
-     <h3 style="border-bottom: 1px solid black; font-weight: bold;">Related bugs</h3>
-     <h3>
-           (<a href="{{html_url}}">{{repo}} Issue #{{number}} <img src="/images/link.png"></a>) -- {{title}}
-     </h3>
-     <div class="labels">
-         {{#labels}}
-             <div class="label" style="background-color: #{{color}};">
-                 <a href="https://github.com/timvideos/{{repo}}/issues?labels={{name}}">
-                     {{name}}
-                 </a>
-             </div>
-         {{/labels}}
-         <div style="clear: both; height: 1px;">&nbsp;</div>
+   <h3 style="border-bottom: 1px solid black; font-weight: bold;">Related bugs</h3>
+   <h3>
+       (<a href="{{html_url}}">{{repo}} Issue #{{number}} <img src="/images/link.png"></a>) -- {{title}}
+   </h3>
+   <div class="labels">
+     {{#labels}}
+       <div class="label" style="background-color: #{{color}};">
+         <a href="https://github.com/timvideos/{{repo}}/issues?labels={{name}}">
+           {{name}}
+         </a>
+       </div>
+     {{/labels}}
+     <div style="clear: both; height: 1px;">&nbsp;</div>
+   </div>
+   <div>
+     <div class="description">
+       {{&fixed_html}}
      </div>
-     <div>
-         <div class="description">
-             {{&fixed_html}}
-         </div>
-     </div>
+   </div>
 </script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

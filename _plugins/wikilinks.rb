@@ -15,12 +15,12 @@ module Jekyll
         @title = title
       end
       
-      def title
+      def get_title
         if @title.nil?
-          if not @match.nil?
-            match_title @match
+          if not match.nil?
+            match_title match
           else
-            @name
+            name
           end  
         else
           @title
@@ -28,47 +28,51 @@ module Jekyll
       end
 
       def match_title(m)
-	if not m.data.nil? and m.data.include? 'title'
-	  m.data['title']
-	end
+        if not m['data'].nil? and m['data'].key? 'title'
+          m['data']['title']
+        end
       end
       
-      def url
-        @match.url
+      def get_url
+        match['url']
       end
       
       def has_match?
-        not @match.nil?
+        not match.nil?
       end
       
       def match_post(posts)
-        @match = posts.find { |p| p.slug.downcase == @name.downcase or match_title(p) == name }
+        @match = posts.find { |p| p['slug'].downcase == name.downcase or match_title(p) == name }
       end
       
       def match_page(pages)
-        @match = pages.find { |p| p.basename.downcase == @name.downcase or match_title(p) == name }
+        @match = pages.find { |p| p['basename'].downcase == name.downcase or match_title(p) == name }
       end
       
       def markdown
-        @match.nil? ? "\\[\\[#{title}\\]\\]" : "[#{title}](#{url})"
+        match.nil? ? "\\[\\[#{get_title}\\]\\]" : "[#{get_title}](#{get_url})"
       end
     end
   end
   
-  module Convertible
-    alias old_transform transform
+  module Converters
+    class Markdown < Converter
+      alias origin_convert convert
 
-    def transform
-      if converter.instance_of? MarkdownConverter
+      def convert(content)
+        @@pages_path ||= File.join(@config['source'], 'pages.json')
+        @@pages_info ||= File.open(@@pages_path, 'r') { |f| JSON.load(f) }
+
         pat = /\[\[(.+?)\]\]/
-        @content = @content.gsub(pat) do |m|
+        new_content = content.gsub(pat) do |m|
           wl = Wikilinks::Wikilink.parse(m)
-          wl.match_page(site.pages)
-          wl.match_post(site.posts) unless wl.has_match?
+          wl.match_page(@@pages_info['pages'])
+          wl.match_post(@@pages_info['posts']) unless wl.has_match?
           wl.markdown
         end
+
+        origin_convert(new_content)
       end
-      old_transform
     end
   end
 end

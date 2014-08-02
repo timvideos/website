@@ -1,8 +1,9 @@
 ---
-{'layout': 'default', 
- 'title': 'HDMI2USB',
- 'tagline': ''}
-
+layout: default
+title: HDMI2USB
+tagline: ''
+category: projects
+tags: summer-of-code projects
 ---
 
 # HDMI2USB
@@ -17,6 +18,7 @@ HDMI2USB is hardware for capturing [HDMI][HDMI], [DVI][DVI] and [DisplayPort][Di
 
 The HDMI2USB hardware can also capture the [HDMI][HDMI] output from cameras.
 
+***
 
 ### Digilent ATLYS Prototype Board
 

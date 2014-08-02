@@ -1,8 +1,8 @@
 ---
-{'layout': 'default',
- 'title': 'Summer Of Code',
- 'tagline': 'Information for Google Summer of Code participants.'}
-
+layout: default
+title: Summer Of Code
+tagline': Information for Google Summer of Code participants.
+tags: summer-of-code
 ---
 
 # Prior Reading
@@ -18,6 +18,9 @@ It contains lots of helpful information about the program, specific deadlines
 and how things will run.
 
 Lastly, **please read everything on this page**. This page is designed to make your proposal **better**, by not reading everything you are already behind.
+
+
+***
 
 # How to ask for help
 
@@ -53,6 +56,9 @@ Some good pages to look for tips about writing good questions can be found below
 
 Often the best way to ask questions is to start writing your Google Summer of Code proposal as documented in the [Writing Proposals](#writing-proposals) section and find out what areas you are getting stuck at.
 
+
+***
+
 # Frequency Asked Questions (FAQ)
 
 ### Can I work on project XXX?
@@ -82,8 +88,9 @@ Start writing your proposal as shown in the [Writing Proposals](#writing-proposa
 
 As developer time is limited, we ask everyone post their messages to the public mailing list or IRC channel (read http://www.catb.org/esr/faqs/smart-questions.html#noprivate for a more detailed explaination).
 
-# Writing Proposals
+***
 
+# Writing Proposals
 **Feel free to submit multiple proposals.**
 
 The following links detail successful general ways to write a Summer of Code Proposal:
@@ -229,23 +236,31 @@ The following are conditions that result in automatic rejection:
  * Group project proposed. Google has specified that groups MAY NOT participate. Individuals only.
  * Proposer is not a student. Google has specified this as a requirement of the GSoC program.
 
+***
+
 # Ideas
 
 You can find our ideas list on the [[Ideas]] page. The list is not definitive and any student is more than **welcome to come up with their own idea** to work on. **Initiative is a skill which will rate highly** when selecting projects. Feel free to come up with your own projects.
 
+***
+
 # Mentors
 
 Please see the [[People]] page.
+
+***
 
 # Where to Ask Questions
 
  * Join the [mailing lists](https://github.com/timvideos/getting-started/wiki#the-projects) for the projects you are interested in.
  * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
+***
+
 # Thanks
 
 We would like to thank the following:
 
-* <http://wiki.creativecommons.org/Summer_of_Code> Creative Commons - a lot of the information in this document was adapted from their Summer of Code page.
-* <http://www.inkscape.com/> - the Inkscape project also has a large amount of stuff which was useful in creating this page.
-* <http://www.google.com/> - without Google this wouldn't even be possible.
+ * <http://wiki.creativecommons.org/Summer_of_Code> Creative Commons - a lot of the information in this document was adapted from their Summer of Code page.
+ * <http://www.inkscape.com/> - the Inkscape project also has a large amount of stuff which was useful in creating this page.
+ * <http://www.google.com/> - without Google this wouldn't even be possible.
