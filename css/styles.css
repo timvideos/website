@@ -139,6 +139,7 @@ table > tbody > tr:nth-child(odd) > td {
   max-width: none;
 }
 
+
 #sidebar, #sidebar a {
     color:#ffffff;
     background-color:transparent;
@@ -185,6 +186,10 @@ table > tbody > tr:nth-child(odd) > td {
 #sidebar-footer {
   position:absolute;
   bottom:5px;
+}
+
+#sidebar {
+  background-color: #024c7d;
 }
 
 .nav > .social {
