@@ -46,11 +46,13 @@ On the top bar of **Prose** editor you can see few options that are standard in 
 
 If you want to add new page to getting-started you need to go to <http://editor.timvideos.us>, select timvideos/getting-started repository or your fork, click on big, green button 'NEW FILE'.
 Select your filename (remember filename is also a path for your page, ie. if you create page named hdmi2usb-history.md, your page will be accessible via http://code.timvideos.us/hdmi2usb-history), on the top of file content add metadata:
+      
       ---
       layout: default
       tags: test
       title: Your title.
       ---
+      
 And add content below, then click on **Save** and after one minute your page will be generated. 
 
 ## Wiki
