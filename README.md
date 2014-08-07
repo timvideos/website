@@ -1,5 +1,7 @@
 # TimVideos Developers Website
 
+[![Build Status](https://travis-ci.org/timvideos/getting-started.svg?branch=master)](https://travis-ci.org/timvideos/getting-started)
+
 ## How to contribute to getting-started website?
 
 Editing content is now very easy on _getting-started_. Website uses power of [**prose content editor**](prose.io) to provide easy interface to edit/add and delete content.
