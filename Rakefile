@@ -11,7 +11,7 @@ require 'yaml'
 
 CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"] || ENV['GIT_NAME']
-DESTINATION_REPO = USERNAME + (CONFIG["repo"] || "#{USERNAME}.github.io")
+DESTINATION_REPO = USERNAME + "/" + (CONFIG["repo"] || "#{USERNAME}.github.io")
 
 # Determine source and destination branch
 # User or organization: source -> master
@@ -214,6 +214,8 @@ namespace :site do
 
     # Generate the site
     sh "bundle exec jekyll build"
+
+    sh "cp DEPLOY.md #{CONFIG["destination"]}/README.md"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
