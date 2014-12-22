@@ -1,5 +1,5 @@
 language: ruby
 install:
-- env
+- env | sort
 - bundle install
 script: bundle exec rake site:deploy
