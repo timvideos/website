@@ -1,8 +1,7 @@
 username: timvideos
-repo: getting-started
 branch: master
 
-destination: ../getting-started-gh-pages/
+destination: ../gh-pages/
 
 safe: false
 lsi: false
@@ -12,13 +11,13 @@ kramdown:
   entity_output: as_input
 exclude: [Gemfile, Gemfile.lock, planet.yml, vendor, .travis.yml, Rakefile]
 auto_permalinks: true 
-name: Tim Videos - Live Event Streaming - Developers page
-description: News, informations, instructions and how to contribute
+name: Tim Videos - Live Event Streaming - Developers Website
+description: News, information, instructions and how to contribute
 url: http://code.timvideos.us
 permalink: pretty
 highlighter: pygments
 
-edit_interface_link: 'http://editor.timvideos.us/#timvideos/getting-started/edit/master/((filename))' 
+edit_interface_link: 'http://editor.timvideos.us/#timvideos/website/edit/master/((filename))'
 
 prose:
   siteurl: 'http://code.timvideos.us'
