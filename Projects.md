@@ -1,42 +1,12 @@
 ---
 layout: default
-title: Getting Started
-tagline: How to start contributing to TimVideos.us
-tags: home
-published: true
----
-
-# Welcome
-
-**Welcome to TimVideos.us!**
-
-**TimVideos.us** is a _group_ of exciting projects which together create a system for doing both _recording and live event streaming_ for **conferences**, **meetings**, **user groups** and **other** presentations. 
-
-We hope that, through our _projects_, the costs and expertise currently required to produce live streaming events will be reduced to near zero. We wish to develop a system where everyone has the ability to record presentations and host live remote participants across the globe.
-
-Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team! This information should help you explore the projects and learn how to get started.
-
-***
-
-## Getting Started
-
-Google Summer of Code (or similar project-based program) students should first head over to the [[Summer Of Code]] page and then head to our [[Ideas]] page.
-
-If you are just interested in contributing and this is your first visit, head over to the [[Ideas]] page.
-
-If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Digilent Atlys Board: Getting Started](https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board%3A-Getting-Started) page.
-
-***
-
----
-layout: default
 title: Projects
 tagline: TimVideos and related projects
-tags: home
+tags: projects
 published: true
 ---
 
-### TimVideos Projects
+# Projects
 
 <img style="width: 100%;" src="https://docs.google.com/drawings/d/1crkdqukOAV9Alq9BOMFucDmwc_HD6qnJ4OF5MJpkrLg/pub?w=960&h=720">
 
@@ -48,7 +18,7 @@ published: true
 | speakertrack   | [(C)](http://github.com/timvideos/gst-switch) | Speakertrack is an extension to GStreamer and gst-switch to allow automatic tracking of speakers using remotely-operated PTZ cameras rather then relying on a camera operator. |
 | [Streaming System](https://github.com/timvideos/streaming-system) | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code. |
 
-### Partner Projects
+# Partner Projects
 
 Projects not developed by TimVideos.us, but extensively used by us.
 
