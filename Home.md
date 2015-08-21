@@ -38,7 +38,7 @@ published: true
 
 ### TimVideos Projects
 
-<img style="width: 100%;" src="https://docs.google.com/drawings/d/1crkdqukOAV9Alq9BOMFucDmwc_HD6qnJ4OF5MJpkrLg/pub?w=960&h=720">
+<img style="width: 100%;" src="/img/TimVideosSetup.png">
 
 | Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description |
 | -------- | ---------------------------------------------------- | ------------ |
