@@ -2,6 +2,7 @@
 layout: default
 title: HDMI2USB
 tagline: 'FOSS hardware for capturing HDMI, DVI and Displayport'
+tags: projects hdmi2usb
 category: projects
 ---
 
