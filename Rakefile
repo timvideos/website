@@ -17,8 +17,8 @@ DESTINATION_REPO = USERNAME + "/" + (CONFIG["repo"] || "#{USERNAME}.github.io")
 # User or organization: source -> master
 # Project: master -> gh-pages
 # Name of source branch for user/organization defaults to "source"
+SOURCE_REPO = ENV['TRAVIS_REPO_SLUG']
 if DESTINATION_REPO == "timvideos/#{USERNAME}.github.io"
-  SOURCE_REPO = ENV['TRAVIS_REPO_SLUG']
   SOURCE_BRANCH = CONFIG['branch'] || "source"
   DESTINATION_BRANCH = "master"
 else
@@ -89,7 +89,10 @@ end
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{DESTINATION_REPO}.git #{CONFIG["destination"]}"
+    print "git clone https://#{ENV['GIT_NAME']}:XXXXXXXX@github.com/#{DESTINATION_REPO}.git #{CONFIG["destination"]}\n"
+    verbose(false) do
+      sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{DESTINATION_REPO}.git #{CONFIG["destination"]}"
+    end
   end
 end
 
