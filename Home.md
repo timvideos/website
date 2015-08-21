@@ -28,14 +28,6 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 
 ***
 
----
-layout: default
-title: Projects
-tagline: TimVideos and related projects
-tags: home
-published: true
----
-
 ### TimVideos Projects
 
 <img style="width: 100%;" src="/img/TimVideosSetup.png">
