@@ -42,15 +42,20 @@ module Jekyll
       end
       
       def match_post(posts)
-        @match = posts.find { |p| p['slug'].downcase == name.downcase or match_title(p) == name }
+        @match = posts.find { |p| is_equal(p['slug'], name) or match_title(p) == name }
       end
       
       def match_page(pages)
-        @match = pages.find { |p| p['basename'].downcase == name.downcase or match_title(p) == name }
+        @match = pages.find { |p| is_equal(p['basename'], name) or match_title(p) == name }
       end
       
       def markdown
         match.nil? ? "\\[\\[#{get_title}\\]\\]" : "[#{get_title}](#{get_url})"
+      end
+
+      def is_equal(a, b)
+	r = '^'+a.downcase.gsub(/[^a-z0-9]/, '.?')+'$'
+        not Regexp::new(r).match(b.downcase).nil?
       end
     end
   end
@@ -60,7 +65,7 @@ module Jekyll
       alias origin_convert convert
 
       def convert(content)
-        @@pages_path ||= File.join(@config['source'], 'pages.json')
+        @@pages_path ||= File.join(@config['destination'], 'pages.json')
         @@pages_info ||= File.open(@@pages_path, 'r') { |f| JSON.load(f) }
 
         pat = /\[\[(.+?)\]\]/

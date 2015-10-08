@@ -3,7 +3,7 @@ layout: default
 title: gst-switch
 tagline': A modern Gstreamer based software video mixer
 category: projects
-tags: project home
+tags: projects gst-switch
 ---
 
 # gst-switch
