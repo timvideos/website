@@ -5,4 +5,4 @@ tagline: Statistics about TimVideos repositories
 tags: stats
 ---
 
-<iframe width="100%" height="99%" frameborder="0" src="http://planet.timvideos.us/iframe/stats"></iframe>
+<iframe width="100%" height="99%" frameborder="0" src="https://planet.timvideos.us/iframe/stats"></iframe>
