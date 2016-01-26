@@ -1,0 +1,253 @@
+/* --------------------------- */
+/*  CSS: Henri Koivuneva       */
+/*  henri.koivuneva@gmail.com  */
+/* --------------------------- */
+
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300&subset=latin,latin-ext); /*latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic*/
+
+
+html {
+    background-image: url("../img/bg.png");
+}
+
+#tabzilla {
+    margin-right: 100px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+    #tabzilla {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    #tabzilla {
+        margin-right: 50px;
+    }
+}
+
+#lang-selection {
+    background: center left transparent no-repeat;
+    /*
+     * Icon attribution
+     * A’ Design Award & Competition, Onur Müştak Çobanlı and Farhat Datta
+     * http://www.languageicon.org
+     */
+    background-image: url("./language_icon.png");
+    padding-left: 28px;
+    padding-bottom: 2px;
+}
+
+#wrapper {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-shadow: 0 1px 0 #fff;
+    color: #333;
+    margin-top:0px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 360px) {
+    #wrapper {
+        padding-top: 100px;
+    }
+}
+
+#ribbon {
+    border-top: 2px solid #fff;
+}
+
+#lang {
+    float:right;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-shadow: 0 1px 0 #fff;
+    color: #333;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+select {
+    background: #fff;
+    border-color: #b2b2b2;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.choices li {
+    display: none;
+}
+
+.question {
+    display: none;
+}
+
+.question {
+    text-align: center;
+    padding-top: 60px;
+}
+
+a {
+    color: #F17100;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9), 0px 1px 1px rgba(255,255,255,0.9);
+}
+
+.question {
+    font-size: 20pt;
+    padding: 0 10% 0 10%;
+}
+
+#responses {
+    padding-top: 1em;
+    font-size: 30pt;
+    background-image: -moz-radial-gradient(center top , ellipse farthest-side, rgba(140, 140, 140, 0.5), rgba(140, 140, 140, 0) 95%), -moz-radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.5), rgba(220, 220, 220, 0)), -moz-radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.3), rgba(220, 220, 220, 0));
+    background-image: -webkit-radial-gradient(center top , ellipse farthest-side, rgba(140, 140, 140, 0.5), rgba(140, 140, 140, 0) 95%), -webkit-radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.5), rgba(220, 220, 220, 0)), -webkit-radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.3), rgba(220, 220, 220, 0));
+    background-image: -o-radial-gradient(center top , ellipse farthest-side, rgba(140, 140, 140, 0.5), rgba(140, 140, 140, 0) 95%), -o-radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.5), rgba(220, 220, 220, 0)), -o-radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.3), rgba(220, 220, 220, 0));
+    background-image: radial-gradient(center top , ellipse farthest-side, rgba(140, 140, 140, 0.5), rgba(140, 140, 140, 0) 95%), radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.5), rgba(220, 220, 220, 0)), radial-gradient(center top , ellipse farthest-side, rgba(220, 220, 220, 0.3), rgba(220, 220, 220, 0));
+    background-size: 100% 5px, 100% 100px, 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#responses div {
+    margin-bottom: 0.5em;
+    /**
+     * dispaly:none needed in case if js is disabled
+     */
+    display:none;
+}
+
+#responses div a:hover {
+    cursor: pointer;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1), 0 -4px rgba(0, 0, 0, 0.1) inset, 0px 3px 48px rgba(255,255,255,0.2) inset;
+}
+
+#responses div a:active {
+    cursor: pointer;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset, 0 1px rgb(255, 255, 255, 0.1), 0px 3px 48px rgba(0,0,0,0.2) inset;
+}
+
+#responses div a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    padding: 2px 10px 8px;
+    border-radius: 6px;
+    border: 0 none;
+
+    display: inline-block;
+    max-width: 90%;
+}
+
+#ok a {
+    background-color: #84C83C;
+    background: -moz-linear-gradient(#84C83C, #66AA1E) repeat scroll 0 0 #84C83C;
+    background: -webkit-linear-gradient(#84C83C, #66AA1E) repeat scroll 0 0 #84C83C;
+    background: -o-linear-gradient(#84C83C, #66AA1E) repeat scroll 0 0 #84C83C;
+    background: linear-gradient(#84C83C, #66AA1E) repeat scroll 0 0 #84C83C;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1), 0 -4px rgba(0, 0, 0, 0.1) inset;
+}
+
+#next a {
+    background-color: #669BE1;
+    background: -moz-linear-gradient(#669BE1, #487DC3) repeat scroll 0 0 #669BE1;
+    background: -webkit-linear-gradient(#669BE1, #487DC3) repeat scroll 0 0 #669BE1;
+    background: -o-linear-gradient(#669BE1, #487DC3) repeat scroll 0 0 #669BE1;
+    background: linear-gradient(#669BE1, #487DC3) repeat scroll 0 0 #669BE1;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1), 0 -4px rgba(0, 0, 0, 0.1) inset;
+}
+
+#back a {
+    background-color: #F19932;
+    background: -moz-linear-gradient(#F19932, #D37B14) repeat scroll 0 0 #F19932;
+    background: -webkit-linear-gradient(#F19932, #D37B14) repeat scroll 0 0 #F19932;
+    background: -o-linear-gradient(#F19932, #D37B14) repeat scroll 0 0 #F19932;
+    background: linear-gradient(#F19932, #D37B14) repeat scroll 0 0 #F19932;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1), 0 -4px rgba(0, 0, 0, 0.1) inset;
+}
+
+#back a span .negative {
+    box-shadow: none;
+}
+
+.choices li {
+    font-size: 60pt;
+    font-weight: 800;
+}
+
+.extra {
+    color: #666;
+    font-size: 20pt;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+#footer {
+    margin-top: 2em;
+    color: #666;
+}
+
+#footer a {
+    color: #555;
+}
+
+.negative {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+/* RTL View */
+html[dir="rtl"] * {
+  font-family: 'Droid Arabic Naskh', "Open Sans", sans-serif;
+}
+html[dir="rtl"] #tabzilla {
+  margin-left: 100px;
+  margin-right: unset;
+}
+@media screen and (min-width: 500px) and (max-width: 760px) {
+  html[dir="rtl"] #tabzilla {
+    margin-left: 60px;
+    margin-right: unset;
+  }
+}
+@media screen and (max-width: 499px) {
+  html[dir="rtl"] #tabzilla {
+    margin-left: 50px;
+    margin-right: unset;
+  }
+}
+html[dir="rtl"] #lang-selection {
+  background: center right transparent no-repeat;
+  padding-left: 0;
+  padding-right: 28px;
+}
+html[dir="rtl"] #lang {
+  float: left;
+  margin-left: 10px;
+  margin-right: unset;
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+    #tabzilla {
+    margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    #tabzilla {
+    margin-right: 50px;
+    }
+
+    #responses{
+        font-size: 22pt;
+    }
+
+    .choices li {
+        font-size: 25pt;
+    }
+}
