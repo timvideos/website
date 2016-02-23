@@ -21,6 +21,8 @@ Lastly, **please read everything on this page**. This page is designed to make
 your proposal **better**, by not reading everything are reducing your chances
 of getting your proposal accepted.
 
+---
+
 # Finding a "Idea" to work on
 
 Due to the TimVideos project being made up of 
@@ -47,6 +49,7 @@ which contains tasks which are suitable to be completed as part of GSoC.
 ### Using Labels to Filter
 
 
+---
 
 # Fixing your first bug
 
@@ -61,13 +64,17 @@ Submitting a bug fix shows that you have understood the project enough to get
 things set up.
 
 
-***
+---
 
 # How to ask for help
 
-Google Summer of Code will require you to work independently and hence showing independent investigation and troubleshooting skills **is a must**. We definitely encourage asking questions of the mentors but you must demonstate researching the question. 
+Google Summer of Code will require you to work independently and hence showing
+independent investigation and troubleshooting skills **is a must**. We
+definitely encourage asking questions of the mentors but you must demonstrate
+researching the question. 
 
-The following is **bad** example. It demonstrates no research or thinking. The response to this question will be a link to this page!
+The following is **bad** example. It demonstrates no research or thinking. The
+response to this question will be a link to this page!
 
 > Hi
 > 
@@ -75,7 +82,8 @@ The following is **bad** example. It demonstrates no research or thinking. The r
 > 
 > Potential GSoC student, Tim 'mithro' Ansell
 
-The following is a **good** example. It demonstrates research and thinking about the issue and more in depth questioning.
+The following is a **good** example. It demonstrates research and thinking
+about the issue and more in depth questioning.
 
 > Hi
 > 
@@ -97,8 +105,7 @@ Some good pages to look for tips about writing good questions can be found below
 
 Often the best way to ask questions is to start writing your Google Summer of Code proposal as documented in the [Writing Proposals](#writing-proposals) section and find out what areas you are getting stuck at.
 
-
-***
+---
 
 # Frequency Asked Questions (FAQ)
 
@@ -129,7 +136,7 @@ Start writing your proposal as shown in the [Writing Proposals](#writing-proposa
 
 As developer time is limited, we ask everyone post their messages to the public mailing list or IRC channel (read http://www.catb.org/esr/faqs/smart-questions.html#noprivate for a more detailed explaination).
 
-***
+---
 
 # Writing Proposals
 **Feel free to submit multiple proposals.**
@@ -277,26 +284,14 @@ The following are conditions that result in automatic rejection:
  * Group project proposed. Google has specified that groups MAY NOT participate. Individuals only.
  * Proposer is not a student. Google has specified this as a requirement of the GSoC program.
 
-***
-
-# Ideas
-
-You can find our ideas list on the [[Ideas]] page. The list is not definitive and any student is more than **welcome to come up with their own idea** to work on. **Initiative is a skill which will rate highly** when selecting projects. Feel free to come up with your own projects.
-
-***
-
-# Mentors
-
-Please see the [[People]] page.
-
-***
+---
 
 # Where to Ask Questions
 
  * Join the [mailing lists](https://github.com/timvideos/getting-started/wiki#the-projects) for the projects you are interested in.
  * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
-***
+---
 
 # Thanks
 
