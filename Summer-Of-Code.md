@@ -46,8 +46,8 @@ The TimVideos project has a
 [dedicated issue tracker](https://github.com/timvideos/getting-started/issues)
 which contains tasks which are suitable to be completed as part of GSoC.
 
-### Using Labels to Filter
-
+It includes [a guide](https://github.com/timvideos/getting-started) to using
+the issue tracker and understanding what the labels on the ideas mean.
 
 ---
 
@@ -57,7 +57,7 @@ While not required, it is **highly recommended** that GSoC students try and fix
 at least one small bug as before the mentors finish reviewing applications.
 
 Most TimVideos projects have number of small tasks marked as <span
-class="good-first-bug">Good First Bug</a> label. These bugs are generally
+class="good-first-bug">Good First Bug</span> label. These bugs are generally
 smaller and designed to be easy to get started with.
 
 Submitting a bug fix shows that you have understood the project enough to get
