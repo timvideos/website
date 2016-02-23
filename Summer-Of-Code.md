@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Summer Of Code
-tagline': Information for Google Summer of Code participants.
+tagline: Information for Google Summer of Code participants.
 tags: summer-of-code
 ---
 
@@ -17,7 +17,52 @@ Secondly, **please read the Google Summer of Code
 It contains lots of helpful information about the program, specific deadlines
 and how things will run.
 
-Lastly, **please read everything on this page**. This page is designed to make your proposal **better**, by not reading everything you are already behind.
+Lastly, **please read everything on this page**. This page is designed to make
+your proposal **better**, by not reading everything you are already behind.
+
+
+# Finding a "Idea" to work on
+
+Due to the TimVideos project being made up of 
+[many smaller projects](/projects/),
+it can be tricky to figure out what is a good idea to work on. 
+
+
+For this reason
+we have a number of tools to help match students to ideas.
+
+## `Contribute` Page
+
+The [Contribute](/contribute/) page will ask you a number of questions and then
+produce an already filtered list of potential ideas that matches your
+interests. 
+
+
+
+
+
+## Getting Started Issue Tracker
+
+### Using Labels to Filter
+
+
+
+
+
+
+
+
+
+Once you have read the [GSoC advice page](https://code.timvideos.us/summer-of-code/) you can go to the [contributing page](https://code.timvideos.us/contribute/) which will try and figure out which project best fits your interests and skills. The page will eventually take you to our [getting started issue tracker](https://github.com/timvideos/getting-started/issues) which includes our most fleshed out ideas for projects, many of which are suitable for GSoC. We encourage students to figure out which idea excites them the most! A student who is interested in their project is more likely to write a good proposal and get accepted. As selecting a project or understanding an idea can be hard, we recommend you come join us [on IRC](https://webchat.freenode.net/?channels=timvideos) and talk to us further about them. Good students are engaged with the community before GSoC even starts!
+
+
+# Starting to Contribute
+
+
+ Once you have found a project you are interested in working on, go to the issue tracker for the project and look for bugs marked "Good First Bug". These bugs are simple enough that you should with some help be able try to fix them. Submitting a bug fix shows that you have understood the project enough to get things set up and while **not** required is a strong positive signal we will use when assessing your application. As mentioned in the [GSoC advice page](https://code.timvideos.us/summer-of-code/) page, mentors and the community are happy to review applications and give feedback. This will drastically improve the quality of your application and give you a better chance of being accepted.
+
+
+
 
 
 ***
