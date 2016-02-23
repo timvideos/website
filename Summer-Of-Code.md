@@ -23,7 +23,7 @@ of getting your proposal accepted.
 
 ---
 
-# Finding a "Idea" to work on
+# Finding a `Idea` to work on
 
 Due to the TimVideos project being made up of 
 [many smaller projects](/projects/),
