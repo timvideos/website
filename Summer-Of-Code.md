@@ -13,56 +13,52 @@ lot of helpful information about the program and about participating as a
 student in Google Summer of Code.
 
 Secondly, **please read the Google Summer of Code
-[FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page)**.
+[FAQ](https://developers.google.com/open-source/gsoc/faq)**.
 It contains lots of helpful information about the program, specific deadlines
 and how things will run.
 
 Lastly, **please read everything on this page**. This page is designed to make
-your proposal **better**, by not reading everything you are already behind.
-
+your proposal **better**, by not reading everything are reducing your chances
+of getting your proposal accepted.
 
 # Finding a "Idea" to work on
 
 Due to the TimVideos project being made up of 
 [many smaller projects](/projects/),
-it can be tricky to figure out what is a good idea to work on. 
+it can be tricky to work out which projects match your skills. We have a number
+of useful tools to help match you to projects.
 
-
-For this reason
-we have a number of tools to help match students to ideas.
+As selecting a project or understanding an idea can be hard, we recommend you
+come join us [on IRC](https://webchat.freenode.net/?channels=timvideos) and
+talk to us further about them. Good students are engaged with the community
+before GSoC even starts!
 
 ## `Contribute` Page
 
-The [Contribute](/contribute/) page will ask you a number of questions and then
-produce an already filtered list of potential ideas that matches your
-interests. 
+The [Contribute](/contribute/) page is the primary location to help you figure
+out which project matches your skills and interests.
 
+## `Idea` Issue Tracker
 
-
-
-
-## Getting Started Issue Tracker
+The TimVideos project has a
+[dedicated issue tracker](https://github.com/timvideos/getting-started/issues)
+which contains tasks which are suitable to be completed as part of GSoC.
 
 ### Using Labels to Filter
 
 
 
+# Fixing your first bug
 
+While not required, it is **highly recommended** that GSoC students try and fix
+at least one small bug as before the mentors finish reviewing applications.
 
+Most TimVideos projects have number of small tasks marked as <span
+class="good-first-bug">Good First Bug</a> label. These bugs are generally
+smaller and designed to be easy to get started with.
 
-
-
-
-Once you have read the [GSoC advice page](https://code.timvideos.us/summer-of-code/) you can go to the [contributing page](https://code.timvideos.us/contribute/) which will try and figure out which project best fits your interests and skills. The page will eventually take you to our [getting started issue tracker](https://github.com/timvideos/getting-started/issues) which includes our most fleshed out ideas for projects, many of which are suitable for GSoC. We encourage students to figure out which idea excites them the most! A student who is interested in their project is more likely to write a good proposal and get accepted. As selecting a project or understanding an idea can be hard, we recommend you come join us [on IRC](https://webchat.freenode.net/?channels=timvideos) and talk to us further about them. Good students are engaged with the community before GSoC even starts!
-
-
-# Starting to Contribute
-
-
- Once you have found a project you are interested in working on, go to the issue tracker for the project and look for bugs marked "Good First Bug". These bugs are simple enough that you should with some help be able try to fix them. Submitting a bug fix shows that you have understood the project enough to get things set up and while **not** required is a strong positive signal we will use when assessing your application. As mentioned in the [GSoC advice page](https://code.timvideos.us/summer-of-code/) page, mentors and the community are happy to review applications and give feedback. This will drastically improve the quality of your application and give you a better chance of being accepted.
-
-
-
+Submitting a bug fix shows that you have understood the project enough to get
+things set up.
 
 
 ***
