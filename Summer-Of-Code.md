@@ -5,9 +5,41 @@ tagline: Information for Google Summer of Code participants.
 tags: summer-of-code
 ---
 
-# Prior Reading
+<br>
 
-Firstly, **please read the Google Summer of Code 
+<h1 style='text-align: center;'>Welcome <b>Google Summer of Code 2017</b> applicants!</h1>
+
+<div style='font-size: larger; text-align: center; font-weight: bold;'>
+Please read everything on this page, especially the
+<a href="#how-to-ask-for-help">How to ask for Help</a> section.
+</div>
+<div style='text-align: center;'>
+This page is designed to make your proposal <b>better</b>, by not reading
+everything are reducing your chances of getting your proposal accepted.
+</div>
+
+<br>
+
+{::nomarkdown}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padding">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      <div class="panel-body">
+{:/nomarkdown}
+
+# Step 0 - Prior Reading
+
+Firstly, **please read the Google Summer of Code
 [Student Manual](http://en.flossmanuals.net/GSoCStudentGuide/)**. It contains a
 lot of helpful information about the program and about participating as a
 student in Google Summer of Code.
@@ -17,15 +49,27 @@ Secondly, **please read the Google Summer of Code
 It contains lots of helpful information about the program, specific deadlines
 and how things will run.
 
-Lastly, **please read everything on this page**. This page is designed to make
-your proposal **better**, by not reading everything are reducing your chances
-of getting your proposal accepted.
 
----
+{::nomarkdown}
+      </div>
+    </div>
+  </div>
+</div>
 
-# Finding a `Idea`
+<div class="padding">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      <div class="panel-body">
+{:/nomarkdown}
 
-Due to the TimVideos project being made up of 
+# Step 1 - Finding a **Idea**
+
+Due to the TimVideos project being made up of
 [many smaller projects](/projects/),
 it can be tricky to work out which projects match your skills. We have a number
 of useful tools to help match you to projects.
@@ -35,12 +79,12 @@ come join us [on IRC](https://webchat.freenode.net/?channels=timvideos) and
 talk to us further about them. Good students are engaged with the community
 before GSoC even starts!
 
-## `Contribute` Page
+## **Contribute** Page
 
 The [Contribute](/contribute/) page is the primary location to help you figure
 out which project matches your skills and interests.
 
-## `Idea` Issue Tracker
+## **Idea** Issue Tracker
 
 The TimVideos project has a
 [dedicated issue tracker](https://github.com/timvideos/getting-started/issues)
@@ -49,96 +93,44 @@ which contains tasks which are suitable to be completed as part of GSoC.
 It includes [a guide](https://github.com/timvideos/getting-started) to using
 the issue tracker and understanding what the labels on the ideas mean.
 
----
+<hr>
 
-# Fixing your first bug
+## Can I work on XXX?
 
-While not required, it is **highly recommended** that GSoC students try and fix
-at least one small bug as before the mentors finish reviewing applications.
+If a idea is listed in our [Idea issue tracker](#idea-issue-tracker) and
+[has the label GSoC](https://github.com/timvideos/getting-started/issues?q=is%3Aopen+is%3Aissue+label%3AGSoC)
+you can assume the answer is going to be *yes*.
 
-Most TimVideos projects have number of small tasks marked as <span
-class="good-first-bug">Good First Bug</span> label. These bugs are generally
-smaller and designed to be easy to get started with.
+## What should I work on?
 
-Submitting a bug fix shows that you have understood the project enough to get
-things set up.
+What do you like to do? What interests you? You know better what projects are
+going to keep your interest for 3 months than we do.
 
+## Is project XXX important?
 
----
+**For GSoC the most important factor is the application quality!** If the
+strongest application is for a lower priority project it is much more likely to
+be accepted even if poorer applications exist for higher priority projects.
 
-# How to ask for help
+{::nomarkdown}
+      </div>
+    </div>
+  </div>
+</div>
 
-Google Summer of Code will require you to work independently and hence showing
-independent investigation and troubleshooting skills **is a must**. We
-definitely encourage asking questions of the mentors but you must demonstrate
-researching the question. 
+<div class="padding">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      <div class="panel-body">
+{:/nomarkdown}
 
-The following is **bad** example. It demonstrates no research or thinking. The
-response to this question will be a link to this page!
+# Step 2 - Writing A **Proposal**
 
-> Hi
-> 
-> I'd like to work on "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" project, please guide me.
-> 
-> Potential GSoC student, Tim 'mithro' Ansell
-
-The following is a **good** example. It demonstrates research and thinking
-about the issue and more in depth questioning.
-
-> Hi
-> 
-> I'm currently researching the "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" issue and have a number of questions I'd like clarified.
-> 
-> The Marvell Ethernet chip appears to be a RGMII compatible PHYs interface. I have found a number of compatible cores at OpenCores and want to know if reusing their work is acceptable? I also found that a person has had some success at http://www.joelw.id.au/FPGA/DigilentAtlysResources and would like to follow their approach.
-> 
-> What level of network protocols need to be supported? Using a low level Ethernet frame would be significantly easier from the FPGA side but would require more work on the connected PC. Using UDP seems like the best compromise between difficulty and compatibility. TCP/IP would had a huge amount more complexity and I'm not sure of the added benefit. Would it be okay to just support UDP?
-> 
-> Thank you for your help.
->
-> Potential GSoC student, Tim 'mithro' Ansell
-
-Some good pages to look for tips about writing good questions can be found below;
-
- * [How To Ask Questions The Smart Way - Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)
- * [How To Ask Questions The Smart Way by Eric S. Raymond](http://taz.newffr.com/TAZ/Sysadm/unix.guide/smart-questions.html)
- * [How To: Ask Questions The Smart Way - C++ Articles](http://www.cplusplus.com/articles/jLzyhbRD/)
-
-Often the best way to ask questions is to start writing your Google Summer of Code proposal as documented in the [Writing Proposals](#writing-proposals) section and find out what areas you are getting stuck at.
-
----
-
-# Frequency Asked Questions (FAQ)
-
-### Can I work on project XXX?
-
-Yes!
-
-### Can you please help me? / 
-
-Please ask more specific questions. What don't you understand? What have you read so far? 
-Tell us about yourself.
-
-See the [How to ask for help](#how-to-ask-for-help) section above.
-
-### What should I work on? 
-
-What do you like to do? What interests you? You know better what projects are going to keep your interest for 3 months than we do.
-
-#### Is project XXX important?
-
-For GSoC the most important factor is the application quality! If the strongest application is for a lower priority project it is much more likely to be accepted even if poorer applications exist for higher priority projects.
-
-### What should I do next?
-
-Start writing your proposal as shown in the [Writing Proposals](#writing-proposals) section. This will help you ask better questions too!
-
-### Who should I contact for project XXXX?
-
-As developer time is limited, we ask everyone post their messages to the public mailing list or IRC channel (read http://www.catb.org/esr/faqs/smart-questions.html#noprivate for a more detailed explaination).
-
----
-
-# Writing Proposals
 **Feel free to submit multiple proposals.**
 
 The following links detail successful general ways to write a Summer of Code Proposal:
@@ -156,22 +148,22 @@ After reviewing many proposals there are a couple of things that many seem to
 be lacking. This list of tips should help you fix common mistakes and help make
 your proposals better.
 
-### Tip 1 - Include IRC Nickname
+### **Tip 1** - Include IRC Nickname
 
-Include your IRC nick as the first thing in the detailed description. 
+Include your IRC nick as the first thing in the detailed description.
 
 During Summer of Code hundreds of new people turn up, keeping you all straight
 is hard for us. Specially when your IRC nick, email address and real name have
 no resemblance.
 
-### Tip 2 - Project First, Resume Second
+### **Tip 2** - **Project First**, Resume Second
 
 We are most interested in your proposal for the project. If your proposal looks
 good we may then look at your resume / personal description.
 
 Hence, include the project information first and your personal stuff second.
 
-### Tip 3 - Include assertive Functional Milestones
+### **Tip 3** - Include assertive Functional Milestones
 
 One of the best ways to show that you are a serious students is to include
 proper assertive milestones. These should be a single sentences which say
@@ -209,10 +201,10 @@ get behind on.
 Talk to the mentors about your milestones, they have huge amount of knowledge
 about what is realistic and can really help you refine the details.
 
-### Tip 4 - We are not mind readers
+### **Tip 4** - We are not mind readers
 
 **Anything which is not linked to from your proposal effectively does not
-exist.** I'm afraid we can not (yet) read your mind. 
+exist.** I'm afraid we can not (yet) read your mind.
 
 It is unlikely that we will remember that IRC conversation we had about XYZ.
 Other mentors may not have seen that conversation either.
@@ -222,13 +214,13 @@ decided that it was not feasible. If you had an important IRC conversation
 which resulted in changing the way you think, link too the logs. If a web page
 was influential tell us about it!
 
-### Tip 5 - Submit now!
+### **Tip 5** - Submit now!
 
 Do not leave it to the last minute as you won't have time to update the
 proposal based on feedback. There is still plenty of time for mentors to give
 feedback and you to update your proposal.
 
-### Tip 6 - Make your application public
+### **Tip 6** - Make your application public
 
 Having a public application means not only can mentors give you feedback but
 other students and the general community can too!
@@ -237,7 +229,7 @@ Using a wiki is a good idea because it lets us look at the history of how your
 proposal has evolved. It also means you can have formatting making it easier to
 read.
 
-### Tip 7 - Splitting applications which are too big
+### **Tip 7** - Splitting applications which are too big
 
 Google limits the text you can submit for your detailed description characters.
 This can be quite limited if you have some detailed information or pseudo code.
@@ -258,6 +250,8 @@ colour but still readable. Assume that clicking the link replace the Google
 application with the page and we can no longer remember the original proposal.
 
 **Remember quality is better than quantity!**
+
+<hr>
 
 ## Selection Criteria
 
@@ -284,6 +278,92 @@ The following are conditions that result in automatic rejection:
  * Group project proposed. Google has specified that groups MAY NOT participate. Individuals only.
  * Proposer is not a student. Google has specified this as a requirement of the GSoC program.
 
+{::nomarkdown}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padding">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      <div class="panel-body">
+{:/nomarkdown}
+
+# Step 4 - Fixing your first bug
+
+While not required, it is **highly recommended** that GSoC students try and fix
+at least one small bug as before the mentors finish reviewing applications.
+
+Most TimVideos projects have number of small tasks marked as
+<a href="https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Atimvideos+label%3Agood-first-bug+">Good First Bug label</a>.
+These bugs are generally smaller and designed to be easy to get started with.
+
+Submitting a bug fix shows that you have understood the project enough to get
+things set up.
+
+{::nomarkdown}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padding">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      <div class="panel-body">
+{:/nomarkdown}
+
+# How to ask for help
+
+Google Summer of Code will require you to work independently and hence showing
+independent investigation and troubleshooting skills **is a must**. We
+definitely encourage asking questions of the mentors but you must demonstrate
+researching the question.
+
+The following is **bad** example. It demonstrates no research or thinking. The
+response to this question will be a link to this page!
+
+> Hi
+>
+> I'd like to work on "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" project, please guide me.
+>
+> Potential GSoC student, Tim 'mithro' Ansell
+
+The following is a **good** example. It demonstrates research and thinking
+about the issue and more in depth questioning.
+
+> Hi
+> 
+> I'm currently researching the "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" issue and have a number of questions I'd like clarified.
+> 
+> The Marvell Ethernet chip appears to be a RGMII compatible PHYs interface. I have found a number of compatible cores at OpenCores and want to know if reusing their work is acceptable? I also found that a person has had some success at http://www.joelw.id.au/FPGA/DigilentAtlysResources and would like to follow their approach.
+> 
+> What level of network protocols need to be supported? Using a low level Ethernet frame would be significantly easier from the FPGA side but would require more work on the connected PC. Using UDP seems like the best compromise between difficulty and compatibility. TCP/IP would had a huge amount more complexity and I'm not sure of the added benefit. Would it be okay to just support UDP?
+> 
+> Thank you for your help.
+>
+> Potential GSoC student, Tim 'mithro' Ansell
+
+Some good pages to look for tips about writing good questions can be found below;
+
+ * [How To Ask Questions The Smart Way - Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)
+ * [How To Ask Questions The Smart Way by Eric S. Raymond](http://taz.newffr.com/TAZ/Sysadm/unix.guide/smart-questions.html)
+ * [How To: Ask Questions The Smart Way - C++ Articles](http://www.cplusplus.com/articles/jLzyhbRD/)
+
+Often the best way to ask questions is to start writing your Google Summer of Code proposal as documented in the [Writing Proposals](#writing-proposals) section and find out what areas you are getting stuck at.
+
+
 ---
 
 # Where to Ask Questions
@@ -292,6 +372,60 @@ The following are conditions that result in automatic rejection:
  * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
 ---
+
+# Frequency Asked Questions (FAQ)
+
+## Can I work on project XXX?
+
+Yes!
+
+## Can you please help me?
+
+Please ask more specific questions. What don't you understand? What have you
+read so far?  Tell us about yourself.
+
+See the [How to ask for help](#how-to-ask-for-help) section above.
+
+## What should I work on?
+
+What do you like to do? What interests you? You know better what projects are
+going to keep your interest for 3 months than we do.
+
+### Is project XXX important?
+
+For GSoC the most important factor is the application quality! If the strongest
+application is for a lower priority project it is much more likely to be
+accepted even if poorer applications exist for higher priority projects.
+
+## What should I do next?
+
+Start writing your proposal as shown in the [Writing
+Proposals](#step-2-writing-proposals) section. This will help you ask better
+questions too!
+
+## Who should I contact for project XXXX?
+
+As developer time is limited, we ask everyone post their messages to the public
+mailing list or IRC channel (read
+http://www.catb.org/esr/faqs/smart-questions.html#noprivate for a more detailed
+explaination).
+
+{::nomarkdown}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padding">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      <div class="panel-body">
+{:/nomarkdown}
 
 # Thanks
 
