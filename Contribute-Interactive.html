@@ -39,73 +39,96 @@ $('#responses div').show();
 <div id="wrapper">
 
 <div class="group" id="hwsw">
-<span class="question" data-l10n-id="hwswquestion"></span>
+<span class="question">What do you like working with?</span>
 <ul class="choices">
-<li next-group="chips"><span data-l10n-id="chips"></span>
-<div class="extra" data-l10n-id="chips-extra"></div>
+<li next-group="chips"><span>Chips</span>
+<div class="extra"><img src="https://code.timvideos.us/img/chips.png"><br>I like physical things I can touch and making LEDS blink</div>
 </li>
-<li next-group="bits"><span data-l10n-id="bits"></span>
-<div class="extra" data-l10n-id="bits-extra"></div>
+<li next-group="bits"><span>Bits</span>
+<div class="extra"><img src="https://code.timvideos.us/img/bits.png"><br>I prefer the rewards of virtual objects which can be built quickly</div>
 </li>
 </ul>
 </div>
 
 <div class="group" id="chips">
-<span class="question" data-l10n-id="chip-intro"></span>
+<span class="question">Well, what kind of chips?</span>
 <ul class="choices">
 <li target="https://github.com/timvideos/getting-started/labels/Project%20-%20HDMI2USB%20%28Extension%20Boards%29" data-choice-id="real">Real
-<div class="extra" data-l10n-id="real-extra"></div>
+<div class="extra"><img src="https://code.timvideos.us/img/pcb.png"><br>I like creating PCBs, soldering 0402 resistors and working with my hands<br>
+<a href="https://hdmi2usb.tv/">The HDMI2USB project</a> | 
+<a href="https://tofe.io/">The TOFE expansion interface</a> |
+<a href="http://kicad-pcb.org/">KiCad PCB Design tool</a>
+</div>
 </li>
-<li target="https://github.com/timvideos/getting-started/labels/Project%20-%20HDMI2USB%20%28Extension%20Boards%29" data-choice-id="fake">Fake
-<div class="extra" data-l10n-id="fake-extra"></div>
+<li target="https://github.com/timvideos/getting-started/labels/Project%20-%20HDMI2USB" data-choice-id="fake">Fake
+<div class="extra"><img src="https://code.timvideos.us/img/fpga.png"><br>I like writing my hardware in software!<br>All the coolness of creating hardware with all the benefits of still writing software<br>
+<ul>
+<a href="https://hdmi2usb.tv/">The HDMI2USB project</a> | 
+<a href="https://hdmi2usb.tv/firmware/">The HDMI2USB Firmware</a> | 
+<a href="http://m-labs.hk/gateware.html">MiSoC and MiGen tools</a> 
+</ul>
+</div>
 </li>
 </ul>
 </div>
 
 <div class="group" id="bits">
-<span class="question" data-l10n-id="bits-intro"></span>
+<span class="question">Which programming medium do you prefer?</span>
 <ul class="choices">
 <li next-group="c">C
-<div class="extra" data-l10n-id="c-extra"></div>
+<div class="extra"><img src="https://code.timvideos.us/img/c.png"><br>I might like shooting myself in the foot, but at least it happens quickly!</div>
 </li>
 <li next-group="python">Python
-<div class="extra" data-l10n-id="python-extra"></div>
+<div class="extra"><img src="https://code.timvideos.us/img/python.png"><br>I like working with the world's best language, <br>but not having to deal with interacting with users</div>
 </li>
 <li next-group="web">Web
-<div class="extra" data-l10n-id="web-extra"></div>
+<div class="extra"><img src="https://code.timvideos.us/img/web.png"><br>I like my HTML and JavaScript, and know how to use a browser debugger<br>
+<a href="https://hdmi2usb.tv/">The HDMI2USB project</a> | 
+<a href="https://hdmi2usb.tv/firmware/">The HDMI2USB Firmware</a> | 
+<a href="http://m-labs.hk/gateware.html">MiSoC and MiGen tools</a></div>
 </li>
 </ul>
 </div>
 
 <div class="group" id="python">
-<span class="question" data-l10n-id="python-intro"></span>
+<span class="question">There are multiple python projects you can help out with!</span>
 <ul class="choices">
 <li target="https://github.com/timvideos/getting-started/labels/Project%20-%20Flumotion" data-choice-id="flumotin">Flumotion
-<div class="extra" data-l10n-id="flumotion-extra"></div>
+<div class="extra">We need help with our work on flumotion</div>
 </li>
-<li target="https://github.com/timvideos/getting-started" data-choice-id="streaming">Streaming Support
-<div class="extra" data-l10n-id="streaming-extra"></div>
+<li target="https://github.com/timvideos/getting-started/labels/Project%20-%20Streaming%20System" data-choice-id="streaming">Streaming System
+<div class="extra">We need help with our work on our streaming system</div>
+</li>
+<li target="https://github.com/timvideos/getting-started/labels/Project%20-%20slide-lint" data-choice-id="slide-lint">Slide-Lint
+<div class="extra">We need help with our work on our slide linter</div>
+</li>
+<li target="https://github.com/timvideos/getting-started/labels/Project%20-%20Veyepar" data-choice-id="Veyepar">Veyepar
+<div class="extra">We need help with our work on Vetepar</div>
+</li>
+<li target="https://github.com/timvideos/getting-started/labels/Project%20-%20HDMI2USB%20%28Extension%20Boards%29" data-choice-id="extboardpy">HDMI2USB (Extension Boards)
+<div class="extra">We need help with our work on our HDMI2USB Extension Boards</div>
+</li>
 </li>
 </ul>
 </div>
 
 <div class="group" id="web">
-<span class="question" data-l10n-id="web-intro"></span>
+<span class="question"><esspces you can apply your web knowledge!an>
 <ul class="choices">
 <li target="https://github.com/timvideos/getting-started/labels/Project%20-%20Streaming%20System%20%28Website%29" data-choice-id="streaming" data-ok-id="more1">Streaming Website
-<div class="extra" data-l10n-id="streaming-extra"></div>
+<div class="extra">We need help with support for our streaming</div>
 </li>
 </ul>
 </div>
 
 <div class="group" id="c">
-<span class="question" data-l10n-id="c-intro"></span>
+<span class="question">We can use your help with our C-based projects</span>
 <ul class="choices">
 <li target="https://github.com/timvideos/getting-started/labels/Project%20-%20gst-switch" data-choice-id="gst">gst-switch
-<div class="extra" data-l10n-id="gst-extra"></div>
+<div class="extra">A DVswitch replacement basing on <a href="https://gstreamer.freedesktop.org/">GStreamer</a> </div>
 </li>
 <li target="https://github.com/timvideos/getting-started/labels/Project%20-%20gstreamer" data-choice-id="gstreamer">gstreamer
-<div class="extra" data-l10n-id="gstreamer-extra"></div>
+<div class="extra">An open source multimedia framework</div>
 </li>
 </ul>
 </div>
