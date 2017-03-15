@@ -6,6 +6,11 @@ category: projects
 tags: projects gst-switch
 ---
 
+<div style='width:100%; font-size: 32px; font-weight: bold; text-align: center; margin: 30px; font-color: red;'>
+gst-switch has been deprecated in favor of <a href="/projects/voctomix/">voctomix</a>.<br>
+All development effort is now going into <a href="/projects/voctomix/">voctomix</a>.
+</div>
+
 # gst-switch
 
  * [(Code)](http://github.com/timvideos/gst-switch)
