@@ -167,7 +167,8 @@ Hence, include the project information first and your personal stuff second.
 
 One of the best ways to show that you are a serious students is to include
 proper assertive milestones. These should be a single sentences which say
-something like: 
+something like:
+
  * The AI will issue move orders.
  * The client will be able to display planets in a 3d fashion.
  * The ruleset will allow tpclient-pywx to see planets.
@@ -182,6 +183,7 @@ or dropped all together.
 
 The milestones should be testable and specific. Here are some examples which
 are not acceptable.
+
  * The AI framework will be finish.
  * The star map will work.
  * The ruleset will be balanced.
