@@ -2,7 +2,8 @@
 layout: default
 title: Code of Conduct
 tagline: 
-tags: faq home
+tags: conduct coc
+permalink: /conduct/
 ---
 
 # Code of Conduct

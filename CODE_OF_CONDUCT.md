@@ -1,1 +1,1 @@
-./conduct/Code.md
+./conduct/index.md

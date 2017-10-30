@@ -2,7 +2,8 @@
 layout: default
 title: Code of Conduct - Reporting Guide
 tagline: Code of Conduct - Reporting Guide
-tags: conduct
+tags: conduct reporting
+permalink: /conduct/reporting/
 ---
 
 # Code Of Conduct - Reporting Guide
