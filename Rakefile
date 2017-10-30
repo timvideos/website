@@ -19,10 +19,8 @@ DESTINATION_REPO = USERNAME + "/" + (CONFIG["repo"] || "#{USERNAME}.github.io")
 # Name of source branch for user/organization defaults to "source"
 SOURCE_REPO = ENV['TRAVIS_REPO_SLUG']
 if DESTINATION_REPO == "timvideos/#{USERNAME}.github.io"
-  SOURCE_BRANCH = CONFIG['branch'] || "source"
   DESTINATION_BRANCH = "master"
 else
-  SOURCE_BRANCH = "master"
   DESTINATION_BRANCH = "gh-pages"
 end
 
@@ -211,7 +209,8 @@ namespace :site do
     # Make sure destination folder exists as git repo
     check_destination
 
-    sh "git checkout #{SOURCE_BRANCH}"
+    sh "git fetch origin --unshallow"
+    sh "git fetch origin --tags"
     Dir.chdir(CONFIG["destination"]) { sh "rm -rf *" }
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
 
