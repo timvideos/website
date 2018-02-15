@@ -7,7 +7,7 @@ tags: summer-of-code
 
 <br>
 
-<h1 style='text-align: center;'>Welcome <b>Google Summer of Code 2017</b> applicants!</h1>
+<h1 style='text-align: center;'>Welcome <b>Google Summer of Code</b> applicants!</h1>
 
 <div style='font-size: larger; text-align: center; font-weight: bold;'>
 Please read everything on this page, especially the
@@ -346,13 +346,13 @@ The following is a **good** example. It demonstrates research and thinking
 about the issue and more in depth questioning.
 
 > Hi
-> 
+>
 > I'm currently researching the "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" issue and have a number of questions I'd like clarified.
-> 
+>
 > The Marvell Ethernet chip appears to be a RGMII compatible PHYs interface. I have found a number of compatible cores at OpenCores and want to know if reusing their work is acceptable? I also found that a person has had some success at http://www.joelw.id.au/FPGA/DigilentAtlysResources and would like to follow their approach.
-> 
+>
 > What level of network protocols need to be supported? Using a low level Ethernet frame would be significantly easier from the FPGA side but would require more work on the connected PC. Using UDP seems like the best compromise between difficulty and compatibility. TCP/IP would had a huge amount more complexity and I'm not sure of the added benefit. Would it be okay to just support UDP?
-> 
+>
 > Thank you for your help.
 >
 > Potential GSoC student, Tim 'mithro' Ansell
