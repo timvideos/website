@@ -4,33 +4,47 @@
     <span>DEV PAGE</span>
   </a>
   <ul class="nav">
+
     <li class="{% active_class home %}">
       <a href="{% page_url home %}">HOME</a>
     </li>
+
+    <li class="{% active_class summer-of-code %}">
+      <a href="{% page_url summer-of-code %}">SUMMER OF CODE</a>
+    </li>
+
     <li class="{% active_class projects %}">
       <a href="{% page_url projects %}">PROJECTS</a>
     </li>
+
     <li class="{% active_class hdmi2usb %}">
      <ul>
       <li><a href="{% page_url hdmi2usb %}">HDMI2USB</a></li>
      </ul>
     </li>
+
     <li class="{% active_class voctomix %}">
      <ul>
       <li><a href="{% page_url voctomix %}">voctomix</a></li>
      </ul>
     </li>
+
+    <!--
     <li class="{% active_class streaming-system %}">
      <ul>
       <li><a href="{% page_url streaming-system %}">Streaming System</a></li>
      </ul>
     </li>
+    -->
+
     <li class="{% active_class contribute %}">
       <a href="{% page_url contribute %}">CONTRIBUTE</a>
     </li>
+
     <li class="{% active_class conduct %}">
       <a href="/conduct/">CONDUCT</a></li>
     </li>
+
     <li class="{% active_class reporting %}">
      <ul>
       <li><a href="{% page_url reporting %}">Reporting</a></li>
@@ -41,24 +55,29 @@
     <li class="{% active_class people %}">
       <a href="{% page_url people %}">PEOPLE</a>
     </li>
+
     <li class="{% active_class news %}">
       <a href="{% page_url news %}">NEWS</a>
     </li>
-    <li class="{% active_class summer-of-code %}">
-      <a href="{% page_url summer-of-code %}">SUMMER OF CODE</a>
-    </li>
+
     <li class="{% active_class stats %}">
-      <a href="https://github.com/timvideos">GITHUB</a>
-    </li>
+      <a href="https://github.com/timvideos">REPOSITORIES</a> </li>
+
   </ul>
+
   <ul class="nav hidden-xs" id="sidebar-footer">
+
     <li class="social">
       <a href="https://planet.timvideos.us/feed.xml"><i class="fa fa-rss"></i></a>
       <a href="https://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
     </li>
+
+    <!--
     <li>
       <span>Proudly hosted by <a id="github" href="https://github.com">GitHub</a>
       </span>
     </li>
+    -->
+
   </ul>
 </div>
