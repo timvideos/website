@@ -13,7 +13,7 @@
    height="2086.5466"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.2 (30a58d1, 2017-08-07)"
    sodipodi:docname="TimVideosSetup.svg"
    inkscape:export-filename="TimVideosSetup.png"
    inkscape:export-xdpi="110.26"
@@ -27,17 +27,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.38536023"
+     inkscape:zoom="0.54498166"
      inkscape:cx="1907.2046"
      inkscape:cy="1043.2734"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2156"
-     inkscape:window-height="1904"
-     inkscape:window-x="6000"
-     inkscape:window-y="24"
-     inkscape:window-maximized="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1316"
+     inkscape:window-x="0"
+     inkscape:window-y="68"
+     inkscape:window-maximized="1"
      fit-margin-top="100"
      fit-margin-left="100"
      fit-margin-right="100"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -823,8 +823,7 @@
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="-1647.0668"
        y="446.37338"
-       id="text13931-2-1"
-       sodipodi:linespacing="125%"><tspan
+       id="text13931-2-1"><tspan
          sodipodi:role="line"
          id="tspan13933-6-5"
          x="-1640.6996"
@@ -866,8 +865,7 @@
            style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
            x="-2396.3896"
            y="54.336292"
-           id="text13935-9"
-           sodipodi:linespacing="125%"><tspan
+           id="text13935-9"><tspan
              sodipodi:role="line"
              id="tspan13937-3"
              x="-2396.3896"
@@ -875,7 +873,6 @@
              style="font-weight:bold;fill:#ff0000">HDMI2USB</tspan></text>
       </g>
       <text
-         sodipodi:linespacing="125%"
          id="text13939-1"
          y="623.896"
          x="-311.1402"
@@ -897,7 +894,6 @@
          d="m 269.75348,555.01315 c 0,-82.80673 0,-82.80673 0,-82.80673"
          style="fill:none;stroke:#000000;stroke-width:20.20000076;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
-         sodipodi:linespacing="125%"
          id="text13931-2"
          y="192.1335"
          x="-269.75348"
@@ -931,7 +927,6 @@
        id="g4380"
        transform="matrix(-1,0,0,1,-1803.0256,17.48352)">
       <text
-         sodipodi:linespacing="125%"
          id="text13931"
          y="268.13751"
          x="-777.91583"
@@ -957,8 +952,7 @@
            style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
            x="-2392.3896"
            y="54.336292"
-           id="text13935-9-1"
-           sodipodi:linespacing="125%"><tspan
+           id="text13935-9-1"><tspan
              sodipodi:role="line"
              id="tspan13937-3-5"
              x="-2392.3896"
@@ -976,7 +970,6 @@
          d="m 724.32215,382.71687 c 0,-91.40095 0,-91.40095 0,-91.40095"
          style="fill:none;stroke:#000000;stroke-width:20.11924934;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
-         sodipodi:linespacing="125%"
          id="text13939-1-8"
          y="648.51044"
          x="-765.7088"
@@ -1072,17 +1065,17 @@
            id="g12248"
            transform="matrix(0.59286138,0,0,0.59286138,-1008.158,-454.35272)">
           <ellipse
-             d="m 251.128,50.966 c 0,28.147744 -23.05554,50.966 -51.496,50.966 -28.44045,0 -51.49599,-22.818256 -51.49599,-50.966 C 148.13601,22.818255 171.19155,0 199.632,0 c 28.44046,0 51.496,22.818255 51.496,50.966 z"
-             sodipodi:ry="50.966"
-             sodipodi:rx="51.495998"
-             sodipodi:cy="50.966"
-             sodipodi:cx="199.632"
              cx="199.632"
              cy="50.966"
              rx="51.495998"
              ry="50.966"
              id="ellipse3585-9"
-             transform="translate(-939.06417,-1393.8491)" />
+             transform="translate(-939.06417,-1393.8491)"
+             sodipodi:ry="50.966"
+             sodipodi:rx="51.495998"
+             sodipodi:cy="50.966"
+             sodipodi:cx="199.632"
+             d="m 251.128,50.966 c 0,28.147744 -23.05554,50.966 -51.496,50.966 -28.44045,0 -51.49599,-22.818256 -51.49599,-50.966 C 148.13601,22.818255 171.19155,0 199.632,0 c 28.44046,0 51.496,22.818255 51.496,50.966 z" />
           <path
              sodipodi:nodetypes="ccscscccsccscsscsccscc"
              inkscape:connector-curvature="0"
@@ -1200,17 +1193,17 @@
            id="g12248-4"
            transform="matrix(0.59286138,0,0,0.59286138,-1008.158,-454.35272)">
           <ellipse
-             d="m 251.128,50.966 c 0,28.147744 -23.05554,50.966 -51.496,50.966 -28.44045,0 -51.49599,-22.818256 -51.49599,-50.966 C 148.13601,22.818255 171.19155,0 199.632,0 c 28.44046,0 51.496,22.818255 51.496,50.966 z"
-             sodipodi:ry="50.966"
-             sodipodi:rx="51.495998"
-             sodipodi:cy="50.966"
-             sodipodi:cx="199.632"
              cx="199.632"
              cy="50.966"
              rx="51.495998"
              ry="50.966"
              id="ellipse3585-9-7"
-             transform="translate(-939.06417,-1393.8491)" />
+             transform="translate(-939.06417,-1393.8491)"
+             sodipodi:ry="50.966"
+             sodipodi:rx="51.495998"
+             sodipodi:cy="50.966"
+             sodipodi:cx="199.632"
+             d="m 251.128,50.966 c 0,28.147744 -23.05554,50.966 -51.496,50.966 -28.44045,0 -51.49599,-22.818256 -51.49599,-50.966 C 148.13601,22.818255 171.19155,0 199.632,0 c 28.44046,0 51.496,22.818255 51.496,50.966 z" />
           <path
              sodipodi:nodetypes="ccscscccsccscsscsccscc"
              inkscape:connector-curvature="0"
@@ -1301,8 +1294,7 @@
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="-384.87"
        y="-375.12659"
-       id="text13931-2-1-3-0-6"
-       sodipodi:linespacing="125%"><tspan
+       id="text13931-2-1-3-0-6"><tspan
          sodipodi:role="line"
          x="-384.87"
          y="-375.12659"
@@ -1313,8 +1305,7 @@
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="475.88123"
        y="-575.30743"
-       id="text13931-2-1-3-0-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text13931-2-1-3-0-2"><tspan
          sodipodi:role="line"
          x="475.88123"
          y="-575.30743"
@@ -1365,7 +1356,6 @@
            id="g7593" />
       </g>
       <text
-         sodipodi:linespacing="125%"
          id="text13931-2-1-3-0-2-4-0"
          y="1915.3553"
          x="1051.8999"
@@ -1423,7 +1413,6 @@
            id="g7593-77" />
       </g>
       <text
-         sodipodi:linespacing="125%"
          id="text13931-2-1-3-0-2-4-0-6"
          y="1691.8173"
          x="-262.01129"
@@ -1468,8 +1457,7 @@
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="-429.27634"
        y="498.26736"
-       id="text13931-2-1-1"
-       sodipodi:linespacing="125%"><tspan
+       id="text13931-2-1-1"><tspan
          sodipodi:role="line"
          x="-429.27634"
          y="498.26736"
@@ -1478,14 +1466,13 @@
          x="-429.27634"
          y="548.26733"
          id="tspan4378"
-         style="font-weight:bold;fill:#ff0000">votcomix</tspan></text>
+         style="font-weight:normal;fill:#000000;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal">votcomix</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="128.53009"
        y="364.99774"
-       id="text13931-2-1-1-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text13931-2-1-1-3"><tspan
          sodipodi:role="line"
          x="128.53009"
          y="364.99774"
@@ -1494,11 +1481,21 @@
          x="128.53009"
          y="414.99774"
          id="tspan4378-3"
-         style="font-weight:bold;fill:#ff0000">streaming</tspan><tspan
+         style="font-weight:normal;fill:#000000;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal">streaming</tspan><tspan
          sodipodi:role="line"
          x="128.53009"
          y="464.99774"
-         style="font-weight:bold;fill:#ff0000"
+         style="font-weight:normal;fill:#000000;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4404">system</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5510"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion5512"><rect
+           id="rect5514"
+           width="229.36551"
+           height="60.552498"
+           x="2829.4529"
+           y="1119.5416" /></flowRegion><flowPara
+         id="flowPara5516"></flowPara></flowRoot>  </g>
 </svg>
