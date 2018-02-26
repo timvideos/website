@@ -5,7 +5,7 @@ tagline: Summary for Google Summer of Code participants.
 tags: summer-of-code
 ---
 
-#Become a GSoC student 2018!
+# Become a GSoC student 2018!
 
 Stefan Wallentowitz posted this on https://fossi-foundation.org/2018/02/12/gsoc – It applies to us too, we can’t say it any better, so here it is.
 
